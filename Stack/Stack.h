@@ -124,11 +124,5 @@ public:
 
 int main()
 {
-    Stack<int> stak;
-    stak.push(5);
-    stak.push(6);
-    //stak.print();
-    Stack<int> stak2(stak);
-    stak2.print();
     return 0;
 }
