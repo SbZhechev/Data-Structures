@@ -114,7 +114,7 @@ public:
     {
         return this->last->data;
     }
-    void insertAt(const T& _data,size_t index)
+    void insertAt(size_t index, const T& _data)
     {
         if(index < 0 || index > this->size) throw "Invalid index";
         else
@@ -188,7 +188,5 @@ private:
 
 int main()
 {
-
-
     return 0;
 }
