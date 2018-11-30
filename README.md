@@ -1,2 +1,2 @@
 # Data-Structures
-My implementations of the data structures we are being taught.
+My implementations of the data structures I am being taught.
