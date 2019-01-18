@@ -44,7 +44,7 @@ private:
     }
     void erase()
     {
-        if(!this->isEmpty())
+        while(!this->isEmpty())
         {
             this->pop();
         }
